@@ -1,0 +1,350 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: arial, verdana, sans-serif;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-new {
+    background-color: #7aa329;
+	font-size: 12px;
+	
+    
+}
+
+.navbar-new .navbar-brand,
+.navbar-new .navbar-brand:hover,
+.navbar-new .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-new .navbar-nav > li > a {
+    color: #FFF;
+	font-weight: bold;
+}
+
+.navbar-new .navbar-nav > li > a:hover,
+.navbar-new .navbar-nav > li > a:focus {
+    background-color: #0FA6A1;
+}
+
+.navbar-new .navbar-nav > .active > a,
+.navbar-new .navbar-nav > .active > a:hover,
+.navbar-new .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #0FA6A1;
+}
+
+.navbar-new .navbar-text {
+    color: #FFF;
+}
+
+.navbar-new .navbar-toggle {
+    border-color: #0FA6A1;
+}
+
+.navbar-new .navbar-toggle:hover,
+.navbar-new .navbar-toggle:focus {
+    background-color: #0FA6A1;
+}
+
+.navbar-new .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+/*style for landing page image*/
+.backgroundimg{
+	
+	background-image:url("../images/homeimg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*height: vh: means viewport height */
+	width: 100%;
+	height: 400px;
+	
+	
+	/* background-attachment: fixed; will make the image not scroll with the rest of the page */
+	}
+
+
+.btnwrapper{
+	text-align:center;
+	/*i used this magic trick to center my call to action button*/
+	 
+}	
+	
+footer {
+	color:#eee;
+	background: #333;
+	padding: 20px;
+	font-size: 11px;
+	
+}
+ul.mylist{
+	list-style: none;
+	padding: 0;
+	color: black;
+	font-size: 14px;
+	opacity: 0.9
+}
+ol.mylist2{
+	list-style: none;
+	padding: 0;
+	color: black;
+	font-size: 12px;
+}
+ul.unstyled{
+	list-style: none;
+	padding: 0;
+	color: white;
+}
+ul.unstyled li a{
+	
+	color: white;
+}
+.copyright{
+	text-align: left;	
+}
+.mytext{
+	text-align: justify;
+	color: #000;
+	font-size: 14px;
+	line-height:20px;
+	opacity: 0.9
+}
+.mytext2{
+	text-align: justify;
+	color: #000;
+	font-size: 18px;
+	line-height:20px;
+}
+
+/*style for about.php background image*/
+.about{
+	
+	background-image:url("../images/whoweare.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*height: vh: means viewport height */
+	height: 400px;
+	width: 100%;
+	/* background-attachment: fixed; will make the image not scroll with the rest of the page */
+	
+}
+
+/*style for lifecoaching.php background image*/
+.lifecoaching{
+	
+	background-image:url("../images/girl.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*height: vh: means viewport height */
+	height: 350px;
+	width: 100%;
+	/* background-attachment: fixed; will make the image not scroll with the rest of the page */
+	
+}
+/*style for lifecoaching.php background image*/
+.workwithus{
+	
+	background-image:url("../images/girls2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*height: vh: means viewport height */
+	height: 430px;
+	width: 100%;
+	/* background-attachment: fixed; will make the image not scroll with the rest of the page */
+	
+}
+.info{
+	text-align: justify;
+	color: #CC0033;
+	font-size: 13px;
+	font-style: italic;
+	line-height:20px;
+}
+.careercoaching{
+	
+	background-image:url("../images/career.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*height: vh: means viewport height */
+	height: 350px;
+	width: 100%;
+	/* background-attachment: fixed; will make the image not scroll with the rest of the page */
+	
+}
+.programs{
+	
+	background-image:url("../images/classroom.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*height: vh: means viewport height */
+	height: 400px;
+	width: 100%;
+	/* background-attachment: fixed; will make the image not scroll with the rest of the page */
+	
+}
+.coaching{
+	
+	background-image:url("../images/coach1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*height: vh: means viewport height */
+	height: 400px;
+	width: 100%;
+	/* background-attachment: fixed; will make the image not scroll with the rest of the page */
+	
+}
+.summary{
+	margin-top: 15px;
+	padding-bottom: 30px;
+	
+}
+.writeup{
+	background: #fcf4e8;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+section.gallery{
+	background: #fcf4e8; 
+	padding-bottom: 60px;
+	margin-top: 20px;
+	padding-top: 20px;
+	font-size: 12px;
+	
+}
+
+.myheader{
+	color: #CC0033;
+	font-size: 19px;
+}
+.smallheader{
+	color: #CC0033;
+	font-size: 15px;
+}
+
+.mybigheader{
+	color: #CC0033;
+	font-size: 24px;
+}
+
+.description{
+	color: blue;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.highlightred{
+	color: #CC0033; 
+	font-size: 15px;
+	font-style: italic;
+}
+.highlightblue{
+	color: blue; 
+	font-size: 14px;
+	
+}
+
+
+
+/*style for the accordion in lifecoaching.php etc*/
+.accordion {
+    background-color: #fcf4e8;
+    
+	color: #CC0033;
+	font-size: 15px;
+	
+    cursor: pointer;
+    padding: 6px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background: #bfff80;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #000;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+	color: #000;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+.banner-header{
+	/*code to custmize animate.css effects */
+	color:#CC0033;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: 2;
+	
+}
+
+.type{
+	/*typed.js animated typing uses this class */
+	font-size:27px;
+	color:#CC0033;
+	
+}
+
+.subheading{
+	color:#1e90ff;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.quotes{
+	text-align: center;
+	color:#1e90ff;
+	font-size: 14px;
+	
+}
+.jobpage-label{
+	color:#1e90ff;
+	font-size: 12px;
+}
+
+
+.sidebar .list-group .list-group-item{
+	background-color: #1e90ff;
+	
+}
+.sidebar .list-group .list-group-item a{
+	text-decoration:none;
+	color: #fff;
+	font-size: 14px;
+	
+}
+.sidebar .list-group .list-group-item a:hover{
+	color:#CC0033;
+}
